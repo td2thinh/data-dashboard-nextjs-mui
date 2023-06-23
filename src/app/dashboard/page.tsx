@@ -1,9 +1,14 @@
-const Dashboard = () => {
-    return (
-        <h1>
-            Dashboard
-        </h1>
-    )
-}
+import { Dashboard } from "./Dashboard";
+import { Header } from "@/components/Header/";
+import { SideBar } from "@/components/SideBar";
+const DashboardPage = () => {
+  return (
+    <>
+      <Header />
+      <SideBar />
+      <Dashboard />
+    </>
+  );
+};
 
-export default Dashboard
+export default DashboardPage;

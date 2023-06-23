@@ -1,9 +1,9 @@
-const Login = () => {
+import { Login } from './Login'
+
+const LoginPage = () => {
     return (
-        <h1>
-            Login
-        </h1>
+        <Login />
     )
 }
 
-export default Login
+export default LoginPage
